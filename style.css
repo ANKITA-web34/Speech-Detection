@@ -36,3 +36,14 @@
     border: 1px solid;
     border-color: transparent #efe4e4;
   }
+
+  #mice {
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    font-size: 3rem;
+    background: #f77babd7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }

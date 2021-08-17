@@ -1,3 +1,6 @@
+const mice = document.getElementById("mice");
+console.log(mice);
+
 window.SpeechRecognition = 
 window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -24,4 +27,6 @@ recognition.addEventListener('result', e => {
 
 recognition.addEventListener('end', recognition.start);
 
-recognition.start();
+
+mice.addEventListener('click', recognition.start());
+// recognition.start(); //its work on pageLoad!
